@@ -1,7 +1,7 @@
 
 # This is a basic workflow to help you get started with GitHub Actions
 
-name: Getting started1
+name: my1stdemo
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the main branch
@@ -31,7 +31,7 @@ jobs:
         with: 
           java-version: 1.8
 
-      - name: Step 4 - Build your your Jakarta web app with Maven
+      - name: Step 4 - Build your Jakarta web app with Maven
         run: echo mvn -B package --file pom.xml
           
       - name: Step 5 - List Ubuntu Environment Variables
