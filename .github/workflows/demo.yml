@@ -38,5 +38,5 @@ jobs:
         run: env
         
       - name: Step 7 - Performing Task from shell script
-        run: sh ./.github/script.sh
+        run: sh ./.github/workflows/script.sh
         shell: bash
